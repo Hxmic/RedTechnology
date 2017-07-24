@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>日期范围</title>
+		<link href="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		
+		<script>
+			
+			$(function() {
+				
+				$("#datepicker").datepicker({ minDate: "+0Y +0M +0D", maxDate: "+0Y +1M +7D" });
+			
+			});
+		</script>
+	</head>
+
+	<body>
+		<h2>显示日期范围2017-07-24 至 2017-08-31</h2>
+		<p>日期：<input type="text" id="datepicker"></p>
+
+	</body>
+
+</html>
